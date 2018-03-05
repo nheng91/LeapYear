@@ -12,12 +12,14 @@ vignette: >
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  warning = FALSE
 )
 ```
 
 ```{r load_devtools, include=FALSE}
 library(devtools)
+library(knitr)
 ```
 
 ```{r load_LeapYear, include=FALSE}
@@ -25,15 +27,13 @@ install_github("nheng91/LeapYear")
 library(LeapYear)
 ```
 
-```{r load_data}
-load_data("LeapYear")
+```{r load_data, include=FALSE}
+load_data()
 ```
 
 ## LeapYear package
 
 This Vignette offers a brief description of how to use the **LeapYear** package.    The **LeapYear** contains only one function: *leap_year()*.  The user must enter a year between 1804 and 2400 and *leap_year()* will notify the user of whether or not the entered year was or will be a leap year. Examples of package use are included in the following documentation.
-
-Note the various macros within the `vignette` section of the metadata block above. These are required in order to instruct R how to build the vignette. Note that you should change the `title` field and the `\VignetteIndexEntry` to match the title of your vignette.
 
 ## Correct Use
 
