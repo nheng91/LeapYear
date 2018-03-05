@@ -1,0 +1,69 @@
+---
+title: "LeapYear_Description"
+author: "Nate Heng"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{LeapYear_Description}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r load_devtools, include=FALSE}
+library(devtools)
+```
+
+```{r load_LeapYear, include=FALSE}
+install_github("nheng91/LeapYear")
+library(LeapYear)
+```
+
+```{r load_data}
+load_data("LeapYear")
+```
+
+## LeapYear package
+
+This Vignette offers a brief description of how to use the **LeapYear** package.    The **LeapYear** contains only one function: *leap_year()*.  The user must enter a year between 1804 and 2400 and *leap_year()* will notify the user of whether or not the entered year was or will be a leap year. Examples of package use are included in the following documentation.
+
+Note the various macros within the `vignette` section of the metadata block above. These are required in order to instruct R how to build the vignette. Note that you should change the `title` field and the `\VignetteIndexEntry` to match the title of your vignette.
+
+## Correct Use
+
+
+```{r}
+leap_year(1992)
+```
+
+```{r}
+leap_year(1993)
+```
+
+## Incorrect Use
+
+The user must enter only a single year as the argument.  If multiple years are entered *leap_year()* will produce an error.
+
+```{r}
+leap_year(c(1994,1995))
+```
+
+The argument entered must also only contain 4 characters.
+
+```{r}
+leap_year(20050)
+```
+
+The argument entered must also be a number.
+
+```{r}
+leap_year("Hello")
+```
+
+
