@@ -1,12 +1,10 @@
 Package: LeapYear
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Declares whether or not the entered year is a leap year.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Nate Heng
+Maintainer: Nate Heng <nheng91@gmail.com>
+Description: Nothing more yet.  This is a class assignmentLicense: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Suggests: knitr,

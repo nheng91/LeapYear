@@ -1,4 +1,12 @@
+#'@title LeapYear
 #'
+#'@description This package has on function that declares whether or not the year entered as an argument is a leap year.
+#'
+#'@param year Enter one year between 1804 & 2400.  This must be a vector of length 1.
+#'
+#'@return The function will return whether or not the year entered as an argument is a leap year.
+#'
+#'@note The package contains a vector of leap year titled 'leap_years' that the leap_year() function uses.
 #'
 #'@examples
 #'\dontrun{
