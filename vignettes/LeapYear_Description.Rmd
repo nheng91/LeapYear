@@ -33,7 +33,7 @@ load_data()
 
 ## LeapYear package
 
-This Vignette offers a brief description of how to use the **LeapYear** package.    The **LeapYear** contains only one function: *leap_year()*.  The user must enter a year between 1804 and 2400 and *leap_year()* will notify the user of whether or not the entered year was or will be a leap year. Examples of package use are included in the following documentation.
+This Vignette offers a brief description of how to use the **LeapYear** package.    The **LeapYear** package contains only one function: *leap_year()*.  The user must enter a year between 1804 and 2400 and *leap_year()* will notify the user of whether or not the entered year was or will be a leap year. Examples of package use are included in the following documentation.
 
 ## Correct Use
 
