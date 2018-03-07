@@ -1,5 +1,4 @@
-library(testthat)
-library(LeapYear)
+
 
 test_that("Leap Year",{
   data("leap_years")
