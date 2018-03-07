@@ -4,7 +4,7 @@ Title: Declares whether or not the entered year is a leap year
 Version: 0.1.0
 Author: Nate Heng
 Maintainer: Nate Heng <nheng91@gmail.com>
-Description: Coursera class assignment
+Description: This package was designed for a Coursera class assignment.
 Encoding: UTF-8
 Depends: R (>= 2.10)
 LazyData: true
