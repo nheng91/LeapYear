@@ -1,4 +1,3 @@
 exportPattern("^[[:alpha:]]+")
 export("leap_year")
-import(testthat)
-import(devtools)
+
